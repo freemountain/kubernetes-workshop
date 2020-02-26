@@ -43,7 +43,7 @@ Returns 200 OK {
 }
 ```
 
-## 2 patient-app
+## 2 patient-service
  
 Create a new spring-boot-web project including the following dependencies:
 1. spring-boot-starter-web
@@ -52,7 +52,7 @@ Create a new spring-boot-web project including the following dependencies:
 
 Refactor everything related to the creation of patient object's into this app.
 
-## 3 insurance-app
+## 3 insurance-service
 
 Create a new spring-boot-web project including the following dependencies:
 1. spring-boot-starter-web
