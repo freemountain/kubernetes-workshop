@@ -1,13 +1,13 @@
 \connect patientdb;
 
-CREATE TABLE patients (
+CREATE TABLE IF NOT EXISTS patients (
     id          varchar(255) PRIMARY KEY,
     first_name  varchar(255) NOT NULL,
     last_name   varchar(255) NOT NULL,
     age         smallint NOT NULL
 );
 
-CREATE TABLE prescriptions (
+CREATE TABLE IF NOT EXISTS prescriptions (
    id           varchar(255) PRIMARY KEY,
    patient_id   varchar(255) NOT NULL,
    name         varchar(255) NOT NULL,
